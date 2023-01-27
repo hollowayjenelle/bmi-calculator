@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.main-section{
+  width: 700px;
+  height: 500px;
+  place-self: center;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  border-radius: 15px 15px 0 0;
+}
+
+.header-title{
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.fa-calculator{
+  margin-right: 5px;
+}
