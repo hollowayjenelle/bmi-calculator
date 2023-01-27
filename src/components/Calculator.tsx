@@ -58,7 +58,7 @@ const Calculator: FC = () => {
             </div>
             <div className='display-area'>
                 <h4>Your BMI is:</h4>
-                {BMI > 0 && <p>{BMI}</p>}
+                {BMI > 0 && <div className='bmi-digit'>{BMI}</div>}
                 {BMI > 0 && <h4>{changeMessage()}</h4>}
             </div>
         </div>
